@@ -1,0 +1,362 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+  background-image: url(./Grafiikat/Tausta.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  top: 380px;
+}
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-shadow: 1px 1px 1px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.57);
+}
+h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.57);
+}
+.toplogo {
+  margin-top: 5rem;
+  width: 250px;
+}
+.welcometxt {
+  text-align: center;
+  flex: content;
+  vertical-align: middle;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.57);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.toplink {
+  background-color: rgba(150, 75, 10, 0.723);
+  background-size: cover;
+  padding: 12px;
+  box-shadow: 2px 2px 4px black;
+  float: right;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+.toplink:hover {
+  background-color: rgba(89, 58, 0, 0.73);
+}
+
+.topnav {
+  padding: 30px;
+  background-image: url(/Grafiikat/bannertexture.png),
+    linear-gradient(to right, rgb(217, 152, 32), rgb(158, 43, 9));
+  background-size: fill, contain;
+  background-blend-mode: difference;
+  box-shadow: 1px 2px 100px 20px rgba(0, 0, 0, 0.479);
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+.kuva1 {
+  width: 40rem;
+  margin: auto;
+  display: block;
+  box-shadow: 2px 2px 2px;
+}
+
+.navbtn {
+  color: rgba(255, 255, 255, 0.863);
+  background-color: rgba(255, 136, 0, 0.427);
+  padding: 20px 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.567);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.792);
+  border-collapse: separate;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+.topnav .icon {
+  display: none;
+}
+.navbtn:hover {
+  background-color: rgba(133, 255, 114, 0.485);
+}
+.main {
+  margin-top: 12rem;
+}
+
+#spotify img {
+  width: 30%;
+  margin-left: 20%;
+}
+#imagelink img {
+  width: 20%;
+  margin-top: 0.5em;
+  align-content: center;
+  padding: 5%;
+}
+
+#galleryhead {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.567);
+  display: block;
+}
+
+.gallerypics img {
+  width: 30rem;
+  padding: 1em;
+  display: block;
+}
+
+#gigi1 {
+  display: flex;
+}
+#gigi2 {
+  float: right;
+  margin-left: 120%;
+}
+#gigi3 {
+  display: flex;
+}
+#gigi4 {
+  float: right;
+  margin-left: 30%;
+}
+
+.welcometext p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Storeheader {
+  margin-top: 10rem;
+  text-align: center;
+  text-shadow: 1px 1px 10px;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#abouttext {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.479);
+}
+
+#abouttext p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10rem;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+
+#abouttext h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 40px;
+}
+#abouttext h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 30px;
+}
+
+.upcomingGigs {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.479);
+}
+
+.upcomingGigs h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 40px;
+}
+
+.pastGigs {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: left;
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.479);
+}
+
+.pastGigs h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 40px;
+}
+
+.pastGigs img {
+  width: 30rem;
+  margin-left: 0em;
+  margin-right: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(/Grafiikat/Tausta.png);
+    background-repeat: repeat;
+    background-size: 200%;
+  }
+  .realbody {
+    margin-left: 7rem;
+  }
+  .Storeheader {
+    text-align: center;
+    margin-left: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  .welcometxt {
+    text-align: center;
+    flex: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.57);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px;
+    text-align: center;
+  }
+  .toplogo {
+    margin-top: 0%;
+    width: 250px;
+    margin-left: 10%;
+    position: static;
+  }
+  .kuva1 {
+    margin: auto;
+    width: 80%;
+    box-shadow: 2px 2px 2px;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+  .topnav {
+    padding: 1rem;
+    background-image: url(Grafiikat/bannertexture.png),
+      linear-gradient(to right, rgb(217, 152, 32), rgb(158, 43, 9));
+    background-size: fill, contain;
+    background-blend-mode: difference;
+    box-shadow: 1px 2px 100px 20px rgba(0, 0, 0, 0.479);
+    width: fit-content;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+  }
+  #abouttext {
+    margin: 10%;
+  }
+  #abouttext p {
+    font-size: 1em;
+  }
+  .Storeheader {
+    margin: 20%;
+    font-size: 100%;
+    text-align: center;
+    display: block;
+  }
+  .navbtn {
+    color: rgba(255, 255, 255, 0.863);
+    background-color: rgba(255, 136, 0, 0.427);
+    font-size: 15px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.567);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.792);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: block;
+  }
+  .imagelink img {
+    width: 30px;
+    border: none;
+    margin-top: 2em;
+  }
+
+  .toplink {
+    background-color: rgba(150, 75, 10, 0.723);
+    background-size: cover;
+    padding: 12px;
+    box-shadow: 2px 2px 4px black;
+    float: right;
+    color: white;
+    border: none;
+    text-decoration: none;
+  }
+  .toplink:hover {
+    background-color: rgba(89, 58, 0, 0.73);
+  }
+  .upcomingGigs {
+    margin-top: 0rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.479);
+  }
+  .pastGigs img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  #galleryhead h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.567);
+    display: block;
+    margin-left: 110%;
+  }
+  .gallerypics img {
+    max-width: 100%;
+    flex: auto;
+  }
+
+  #gigi1 {
+    float: inherit;
+  }
+  #gigi2 {
+    float: right;
+    margin-left: 120%;
+  }
+  #gigi3 {
+    float: none;
+  }
+  #gigi4 {
+    float: right;
+    margin-left: 30%;
+  }
+}
